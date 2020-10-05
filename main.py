@@ -4,8 +4,6 @@ import argparse
 import torch
 import numpy as np
 
-from load_data import KGDataset
-
 from model.KGEInfluence import KGEInfluence
 
 parser = argparse.ArgumentParser()
@@ -55,6 +53,9 @@ parser.add_argument("--cuda",
 
 args = parser.parse_args()
 
+# TODO: device from args
+device = torch.device('cuda')  # GPU
+
 dataset = args.dataset
 data_dir = "data/%s/" % dataset
 
@@ -68,7 +69,7 @@ if torch.cuda.is_available:
 
 # load pretrained model
 checkpoint = load_checkpoint('cp/fb15k-237-rescal.pt')
-model = KGEInfluence.create_from(checkpoint)
+model = KGEInfluence.create_from(checkpoint, device).to(device)
 
 # s = torch.Tensor([
 #     0,
@@ -95,8 +96,12 @@ model = KGEInfluence.create_from(checkpoint)
 train_triples = model.dataset.load_triples('train')
 test_triples = model.dataset.load_triples('test')
 
-train_loader = KGDataset(train_triples)
-test_loader = KGDataset(test_triples)
+# TODO: args Parameters for dataloader
+params = {'batch_size': 64, 'shuffle': False, 'num_workers': 6}
+params_test = {'batch_size': 1, 'shuffle': False, 'num_workers': 6}
+
+train_loader = torch.utils.data.DataLoader(train_triples, **params)
+test_loader = torch.utils.data.DataLoader(test_triples[0:4, :], **params_test)
 
 # get influence
-model.get_grad_of_influence_wrt_input(train_loader, test_loader)
+model.get_influence(train_loader, test_loader)
