@@ -129,9 +129,6 @@ class HVPOperator(Operator):
             grad_dict = torch.autograd.grad(loss,
                                             self.model.parameters(),
                                             create_graph=False)
-            print(grad_dict)
-            print(grad_dict[0].shape)
-            print(grad_dict[1].shape)
 
             if grad_vec is not None:
                 grad_vec += torch.cat(
