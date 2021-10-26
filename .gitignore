@@ -2,6 +2,11 @@ ProxGradPytorch/
 proximal_gradient/
 run_interpretable/
 cp/
+retrains/
+kge/
+hvps/
+gradients/
+data/
 
 save/
 

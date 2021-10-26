@@ -1,1569 +1,0 @@
-  0%|          | 0/152 [00:00<?, ?it/s]Loading configuration of dataset toy...
-Rescal(
-  (_entity_embedder): LookupEmbedder(
-    (_embeddings): Embedding(280, 10)
-    (dropout): Dropout(p=0.4267429455561116, inplace=False)
-  )
-  (_relation_embedder): LookupEmbedder(
-    (_embeddings): Embedding(112, 100)
-    (dropout): Dropout(p=0.15935746704923415, inplace=False)
-  )
-  (_scorer): RescalScorer()
-)
-Loaded 4565 train triples
-Loaded 152 test triples
-Comparing mode...
-Loading configuration of dataset toy_modified...
-Loaded 4564 train triples
-Loaded 152 test triples
-
- Computing test examples gradients: 
-
-  1%|          | 1/152 [00:00<00:30,  4.90it/s] 19%|█▉        | 29/152 [00:00<00:17,  6.94it/s] 38%|███▊      | 57/152 [00:00<00:09,  9.81it/s] 57%|█████▋    | 86/152 [00:00<00:04, 13.81it/s] 76%|███████▋  | 116/152 [00:00<00:01, 19.35it/s] 96%|█████████▌| 146/152 [00:00<00:00, 26.89it/s]100%|██████████| 152/152 [00:00<00:00, 193.72it/s]
-  0%|          | 0/152 [00:00<?, ?it/s]
- Computing hessian vector products via NCG: 
-
-  1%|          | 1/152 [00:31<1:18:42, 31.28s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -294.865393
-         Iterations: 6
-         Function evaluations: 28
-         Gradient evaluations: 14
-         Hessian evaluations: 7
-  1%|▏         | 2/152 [00:56<1:13:43, 29.49s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -408.973161
-         Iterations: 2
-         Function evaluations: 26
-         Gradient evaluations: 11
-         Hessian evaluations: 3
-  2%|▏         | 3/152 [01:33<1:18:45, 31.72s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -305.563713
-         Iterations: 5
-         Function evaluations: 37
-         Gradient evaluations: 15
-         Hessian evaluations: 6
-  3%|▎         | 4/152 [01:50<1:06:59, 27.16s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -393.060809
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
-  3%|▎         | 5/152 [02:05<58:03, 23.70s/it]  Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -146.560360
-         Iterations: 1
-         Function evaluations: 17
-         Gradient evaluations: 5
-         Hessian evaluations: 2
-  4%|▍         | 6/152 [02:27<56:16, 23.13s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -524.912636
-         Iterations: 3
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 4
-  5%|▍         | 7/152 [02:44<51:10, 21.18s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -419.737039
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
-  5%|▌         | 8/152 [03:05<50:43, 21.13s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -84.037347
-         Iterations: 2
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 3
-  6%|▌         | 9/152 [03:25<49:54, 20.94s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -293.349826
-         Iterations: 3
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 4
-  7%|▋         | 10/152 [03:42<46:28, 19.63s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -151.322686
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
-  7%|▋         | 11/152 [04:10<52:14, 22.23s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -140.561679
-         Iterations: 5
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 6
-  8%|▊         | 12/152 [04:27<48:30, 20.79s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -105.109487
-         Iterations: 2
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 3
-  9%|▊         | 13/152 [05:02<57:30, 24.82s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -184.803509
-         Iterations: 3
-         Function evaluations: 31
-         Gradient evaluations: 19
-         Hessian evaluations: 4
-  9%|▉         | 14/152 [05:56<1:17:17, 33.61s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -223.826903
-         Iterations: 5
-         Function evaluations: 57
-         Gradient evaluations: 22
-         Hessian evaluations: 6
- 10%|▉         | 15/152 [06:25<1:13:43, 32.29s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -236.711604
-         Iterations: 3
-         Function evaluations: 27
-         Gradient evaluations: 15
-         Hessian evaluations: 4
- 11%|█         | 16/152 [07:04<1:17:38, 34.26s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -387.034937
-         Iterations: 5
-         Function evaluations: 35
-         Gradient evaluations: 20
-         Hessian evaluations: 6
- 11%|█         | 17/152 [07:23<1:06:47, 29.69s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -162.366814
-         Iterations: 3
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 4
- 12%|█▏        | 18/152 [07:52<1:06:11, 29.64s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -313.399095
-         Iterations: 3
-         Function evaluations: 31
-         Gradient evaluations: 11
-         Hessian evaluations: 4
- 12%|█▎        | 19/152 [08:40<1:17:31, 34.97s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -370.882263
-         Iterations: 5
-         Function evaluations: 46
-         Gradient evaluations: 22
-         Hessian evaluations: 6
- 13%|█▎        | 20/152 [09:04<1:09:40, 31.67s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -191.060477
-         Iterations: 2
-         Function evaluations: 24
-         Gradient evaluations: 10
-         Hessian evaluations: 3
- 14%|█▍        | 21/152 [09:21<59:24, 27.21s/it]  Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -254.037806
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 14%|█▍        | 22/152 [09:47<58:23, 26.95s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -109.600855
-         Iterations: 4
-         Function evaluations: 24
-         Gradient evaluations: 12
-         Hessian evaluations: 5
- 15%|█▌        | 23/152 [10:13<57:39, 26.82s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -206.002756
-         Iterations: 2
-         Function evaluations: 29
-         Gradient evaluations: 9
-         Hessian evaluations: 3
- 16%|█▌        | 24/152 [10:30<50:36, 23.72s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -232.390389
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 16%|█▋        | 25/152 [10:52<48:54, 23.11s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -418.466745
-         Iterations: 3
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 4
- 17%|█▋        | 26/152 [11:11<46:16, 22.03s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -440.032653
-         Iterations: 2
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 3
- 18%|█▊        | 27/152 [11:52<57:28, 27.59s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -119.364067
-         Iterations: 4
-         Function evaluations: 40
-         Gradient evaluations: 18
-         Hessian evaluations: 5
- 18%|█▊        | 28/152 [12:26<1:00:56, 29.48s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -169.284119
-         Iterations: 5
-         Function evaluations: 32
-         Gradient evaluations: 15
-         Hessian evaluations: 6
- 19%|█▉        | 29/152 [12:42<52:34, 25.65s/it]  Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -442.110534
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 20%|█▉        | 30/152 [13:14<55:35, 27.34s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -179.260063
-         Iterations: 4
-         Function evaluations: 32
-         Gradient evaluations: 12
-         Hessian evaluations: 5
- 20%|██        | 31/152 [13:30<48:44, 24.17s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -135.790038
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 21%|██        | 32/152 [13:50<45:48, 22.90s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -557.953864
-         Iterations: 2
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 3
- 22%|██▏       | 33/152 [14:29<54:58, 27.72s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -176.608353
-         Iterations: 5
-         Function evaluations: 38
-         Gradient evaluations: 17
-         Hessian evaluations: 6
- 22%|██▏       | 34/152 [15:02<57:38, 29.31s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -275.211275
-         Iterations: 5
-         Function evaluations: 30
-         Gradient evaluations: 15
-         Hessian evaluations: 6
- 23%|██▎       | 35/152 [15:30<56:12, 28.83s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -173.836255
-         Iterations: 4
-         Function evaluations: 27
-         Gradient evaluations: 11
-         Hessian evaluations: 5
- 24%|██▎       | 36/152 [16:12<1:03:07, 32.65s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -252.965298
-         Iterations: 6
-         Function evaluations: 40
-         Gradient evaluations: 17
-         Hessian evaluations: 7
- 24%|██▍       | 37/152 [17:03<1:13:40, 38.44s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -196.186142
-         Iterations: 6
-         Function evaluations: 50
-         Gradient evaluations: 22
-         Hessian evaluations: 7
- 25%|██▌       | 38/152 [17:37<1:10:14, 36.97s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -569.058813
-         Iterations: 4
-         Function evaluations: 29
-         Gradient evaluations: 17
-         Hessian evaluations: 5
- 26%|██▌       | 39/152 [17:57<1:00:16, 32.01s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -510.804295
-         Iterations: 3
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 4
- 26%|██▋       | 40/152 [18:38<1:04:26, 34.53s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -159.678718
-         Iterations: 5
-         Function evaluations: 40
-         Gradient evaluations: 16
-         Hessian evaluations: 6
- 27%|██▋       | 41/152 [19:20<1:07:59, 36.75s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -211.533190
-         Iterations: 4
-         Function evaluations: 37
-         Gradient evaluations: 22
-         Hessian evaluations: 5
- 28%|██▊       | 42/152 [19:38<57:02, 31.11s/it]  Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -164.882439
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 7
-         Hessian evaluations: 2
- 28%|██▊       | 43/152 [20:06<55:10, 30.37s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -201.779705
-         Iterations: 5
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 6
- 29%|██▉       | 44/152 [20:50<1:01:58, 34.43s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -222.092827
-         Iterations: 5
-         Function evaluations: 42
-         Gradient evaluations: 19
-         Hessian evaluations: 6
- 30%|██▉       | 45/152 [21:27<1:02:40, 35.15s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -175.992722
-         Iterations: 6
-         Function evaluations: 35
-         Gradient evaluations: 14
-         Hessian evaluations: 7
- 30%|███       | 46/152 [22:07<1:04:24, 36.46s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -223.624999
-         Iterations: 5
-         Function evaluations: 34
-         Gradient evaluations: 20
-         Hessian evaluations: 6
- 31%|███       | 47/152 [22:42<1:03:08, 36.08s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -205.113071
-         Iterations: 5
-         Function evaluations: 31
-         Gradient evaluations: 16
-         Hessian evaluations: 6
- 32%|███▏      | 48/152 [23:21<1:03:56, 36.89s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -405.783729
-         Iterations: 6
-         Function evaluations: 32
-         Gradient evaluations: 20
-         Hessian evaluations: 7
- 32%|███▏      | 49/152 [23:55<1:02:07, 36.19s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -144.514063
-         Iterations: 3
-         Function evaluations: 30
-         Gradient evaluations: 19
-         Hessian evaluations: 4
- 33%|███▎      | 50/152 [24:42<1:06:50, 39.32s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -264.125611
-         Iterations: 5
-         Function evaluations: 44
-         Gradient evaluations: 21
-         Hessian evaluations: 6
- 34%|███▎      | 51/152 [25:22<1:06:35, 39.56s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -235.769942
-         Iterations: 5
-         Function evaluations: 36
-         Gradient evaluations: 19
-         Hessian evaluations: 6
- 34%|███▍      | 52/152 [25:55<1:02:52, 37.73s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -215.972385
-         Iterations: 3
-         Function evaluations: 31
-         Gradient evaluations: 16
-         Hessian evaluations: 4
- 35%|███▍      | 53/152 [26:47<1:08:56, 41.78s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -190.348468
-         Iterations: 8
-         Function evaluations: 44
-         Gradient evaluations: 24
-         Hessian evaluations: 9
- 36%|███▌      | 54/152 [27:38<1:12:46, 44.55s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -416.094267
-         Iterations: 5
-         Function evaluations: 47
-         Gradient evaluations: 25
-         Hessian evaluations: 6
- 36%|███▌      | 55/152 [28:02<1:02:09, 38.45s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -208.031889
-         Iterations: 4
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 5
- 37%|███▋      | 56/152 [28:27<55:03, 34.41s/it]  Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -260.768359
-         Iterations: 2
-         Function evaluations: 24
-         Gradient evaluations: 11
-         Hessian evaluations: 3
- 38%|███▊      | 57/152 [29:02<54:55, 34.69s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -71.204272
-         Iterations: 4
-         Function evaluations: 32
-         Gradient evaluations: 17
-         Hessian evaluations: 5
- 38%|███▊      | 58/152 [29:22<47:20, 30.22s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -129.559002
-         Iterations: 3
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 4
- 39%|███▉      | 59/152 [29:46<44:04, 28.44s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -264.575822
-         Iterations: 4
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 5
- 39%|███▉      | 60/152 [30:11<41:56, 27.36s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -400.685417
-         Iterations: 3
-         Function evaluations: 23
-         Gradient evaluations: 11
-         Hessian evaluations: 4
- 40%|████      | 61/152 [30:35<39:55, 26.32s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -49.274422
-         Iterations: 3
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 4
- 41%|████      | 62/152 [31:03<40:15, 26.84s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -292.486364
-         Iterations: 4
-         Function evaluations: 25
-         Gradient evaluations: 12
-         Hessian evaluations: 5
- 41%|████▏     | 63/152 [31:23<36:45, 24.78s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -333.865719
-         Iterations: 2
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 3
- 42%|████▏     | 64/152 [31:42<33:46, 23.02s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -268.018424
-         Iterations: 3
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 4
- 43%|████▎     | 65/152 [32:21<40:20, 27.82s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -327.124908
-         Iterations: 5
-         Function evaluations: 33
-         Gradient evaluations: 21
-         Hessian evaluations: 6
- 43%|████▎     | 66/152 [33:13<50:11, 35.02s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -438.945981
-         Iterations: 5
-         Function evaluations: 50
-         Gradient evaluations: 23
-         Hessian evaluations: 6
- 44%|████▍     | 67/152 [33:43<47:48, 33.75s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -395.035744
-         Iterations: 6
-         Function evaluations: 26
-         Gradient evaluations: 14
-         Hessian evaluations: 7
- 45%|████▍     | 68/152 [34:30<52:40, 37.63s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -288.053935
-         Iterations: 5
-         Function evaluations: 47
-         Gradient evaluations: 18
-         Hessian evaluations: 6
- 45%|████▌     | 69/152 [35:13<54:21, 39.30s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -149.753900
-         Iterations: 5
-         Function evaluations: 40
-         Gradient evaluations: 20
-         Hessian evaluations: 6
- 46%|████▌     | 70/152 [35:42<49:24, 36.15s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -178.717422
-         Iterations: 2
-         Function evaluations: 30
-         Gradient evaluations: 11
-         Hessian evaluations: 3
- 47%|████▋     | 71/152 [36:00<41:19, 30.62s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -207.470010
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 7
-         Hessian evaluations: 2
- 47%|████▋     | 72/152 [36:39<44:20, 33.25s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -458.961873
-         Iterations: 6
-         Function evaluations: 34
-         Gradient evaluations: 19
-         Hessian evaluations: 7
- 48%|████▊     | 73/152 [36:56<37:23, 28.40s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -143.544801
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 49%|████▊     | 74/152 [37:24<36:36, 28.16s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -141.835602
-         Iterations: 5
-         Function evaluations: 24
-         Gradient evaluations: 12
-         Hessian evaluations: 6
- 49%|████▉     | 75/152 [38:01<39:38, 30.88s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -189.879734
-         Iterations: 4
-         Function evaluations: 34
-         Gradient evaluations: 17
-         Hessian evaluations: 5
- 50%|█████     | 76/152 [38:35<40:21, 31.86s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -348.459989
-         Iterations: 3
-         Function evaluations: 32
-         Gradient evaluations: 16
-         Hessian evaluations: 4
- 51%|█████     | 77/152 [39:22<45:25, 36.34s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -468.236195
-         Iterations: 6
-         Function evaluations: 42
-         Gradient evaluations: 22
-         Hessian evaluations: 7
- 51%|█████▏    | 78/152 [40:02<46:08, 37.41s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -209.366956
-         Iterations: 5
-         Function evaluations: 35
-         Gradient evaluations: 19
-         Hessian evaluations: 6
- 52%|█████▏    | 79/152 [40:35<43:49, 36.02s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -73.343208
-         Iterations: 4
-         Function evaluations: 34
-         Gradient evaluations: 11
-         Hessian evaluations: 5
- 53%|█████▎    | 80/152 [41:08<42:06, 35.09s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -228.911124
-         Iterations: 5
-         Function evaluations: 28
-         Gradient evaluations: 16
-         Hessian evaluations: 6
- 53%|█████▎    | 81/152 [41:47<42:52, 36.24s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -585.310308
-         Iterations: 6
-         Function evaluations: 37
-         Gradient evaluations: 15
-         Hessian evaluations: 7
- 54%|█████▍    | 82/152 [42:16<39:42, 34.03s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -166.720601
-         Iterations: 5
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 6
- 55%|█████▍    | 83/152 [43:06<44:43, 38.89s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -235.755796
-         Iterations: 5
-         Function evaluations: 52
-         Gradient evaluations: 19
-         Hessian evaluations: 6
- 55%|█████▌    | 84/152 [43:40<42:37, 37.61s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -326.392956
-         Iterations: 5
-         Function evaluations: 30
-         Gradient evaluations: 17
-         Hessian evaluations: 6
- 56%|█████▌    | 85/152 [43:59<35:42, 31.97s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -341.196030
-         Iterations: 2
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 3
- 57%|█████▋    | 86/152 [44:23<32:25, 29.48s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -294.525150
-         Iterations: 3
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 4
- 57%|█████▋    | 87/152 [44:54<32:27, 29.97s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -211.895973
-         Iterations: 6
-         Function evaluations: 26
-         Gradient evaluations: 14
-         Hessian evaluations: 7
- 58%|█████▊    | 88/152 [45:30<33:55, 31.80s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -343.598014
-         Iterations: 3
-         Function evaluations: 35
-         Gradient evaluations: 16
-         Hessian evaluations: 4
- 59%|█████▊    | 89/152 [45:47<28:42, 27.34s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -88.853488
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 59%|█████▉    | 90/152 [46:30<33:05, 32.02s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -248.688716
-         Iterations: 5
-         Function evaluations: 38
-         Gradient evaluations: 21
-         Hessian evaluations: 6
- 60%|█████▉    | 91/152 [46:48<28:10, 27.72s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -335.682316
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 7
-         Hessian evaluations: 2
- 61%|██████    | 92/152 [47:28<31:39, 31.65s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -164.292195
-         Iterations: 6
-         Function evaluations: 38
-         Gradient evaluations: 17
-         Hessian evaluations: 7
- 61%|██████    | 93/152 [47:46<26:59, 27.46s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -297.932325
-         Iterations: 2
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 3
- 62%|██████▏   | 94/152 [48:06<24:26, 25.29s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -368.600424
-         Iterations: 2
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 3
- 62%|██████▎   | 95/152 [48:48<28:33, 30.05s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -234.927922
-         Iterations: 5
-         Function evaluations: 42
-         Gradient evaluations: 15
-         Hessian evaluations: 6
- 63%|██████▎   | 96/152 [49:19<28:27, 30.50s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -226.063942
-         Iterations: 5
-         Function evaluations: 27
-         Gradient evaluations: 15
-         Hessian evaluations: 6
- 64%|██████▍   | 97/152 [49:52<28:31, 31.12s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -381.735123
-         Iterations: 3
-         Function evaluations: 33
-         Gradient evaluations: 12
-         Hessian evaluations: 4
- 64%|██████▍   | 98/152 [50:14<25:39, 28.51s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -453.949922
-         Iterations: 3
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 4
- 65%|██████▌   | 99/152 [50:39<24:18, 27.52s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -357.182649
-         Iterations: 5
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 6
- 66%|██████▌   | 100/152 [51:04<23:03, 26.61s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -285.761331
-         Iterations: 4
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 5
- 66%|██████▋   | 101/152 [51:21<20:15, 23.83s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -420.430990
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 67%|██████▋   | 102/152 [51:52<21:40, 26.00s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -84.818066
-         Iterations: 6
-         Function evaluations: 26
-         Gradient evaluations: 14
-         Hessian evaluations: 7
- 68%|██████▊   | 103/152 [52:25<22:59, 28.14s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -93.169927
-         Iterations: 4
-         Function evaluations: 30
-         Gradient evaluations: 16
-         Hessian evaluations: 5
- 68%|██████▊   | 104/152 [52:56<23:11, 28.99s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -278.067621
-         Iterations: 4
-         Function evaluations: 29
-         Gradient evaluations: 13
-         Hessian evaluations: 5
- 69%|██████▉   | 105/152 [53:18<20:57, 26.76s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -168.658157
-         Iterations: 2
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 3
- 70%|██████▉   | 106/152 [53:46<20:53, 27.24s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -443.895638
-         Iterations: 4
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 5
- 70%|███████   | 107/152 [54:28<23:48, 31.75s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -74.811418
-         Iterations: 5
-         Function evaluations: 39
-         Gradient evaluations: 19
-         Hessian evaluations: 6
- 71%|███████   | 108/152 [55:40<32:00, 43.64s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -287.140272
-         Iterations: 9
-         Function evaluations: 71
-         Gradient evaluations: 27
-         Hessian evaluations: 10
- 72%|███████▏  | 109/152 [56:28<32:15, 45.01s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -181.815947
-         Iterations: 5
-         Function evaluations: 49
-         Gradient evaluations: 18
-         Hessian evaluations: 6
- 72%|███████▏  | 110/152 [56:55<27:46, 39.69s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -182.445422
-         Iterations: 4
-         Function evaluations: 24
-         Gradient evaluations: 12
-         Hessian evaluations: 5
- 73%|███████▎  | 111/152 [57:30<25:59, 38.04s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -186.387870
-         Iterations: 5
-         Function evaluations: 33
-         Gradient evaluations: 13
-         Hessian evaluations: 6
- 74%|███████▎  | 112/152 [58:05<24:55, 37.39s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -401.121660
-         Iterations: 6
-         Function evaluations: 30
-         Gradient evaluations: 18
-         Hessian evaluations: 7
- 74%|███████▍  | 113/152 [58:28<21:28, 33.05s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -222.232165
-         Iterations: 4
-         Function evaluations: 21
-         Gradient evaluations: 9
-         Hessian evaluations: 5
- 75%|███████▌  | 114/152 [58:46<18:02, 28.48s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -327.378430
-         Iterations: 2
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 3
- 76%|███████▌  | 115/152 [59:37<21:46, 35.30s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -133.349873
-         Iterations: 7
-         Function evaluations: 50
-         Gradient evaluations: 20
-         Hessian evaluations: 8
- 76%|███████▋  | 116/152 [1:00:09<20:30, 34.17s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -304.923563
-         Iterations: 3
-         Function evaluations: 33
-         Gradient evaluations: 11
-         Hessian evaluations: 4
- 77%|███████▋  | 117/152 [1:00:45<20:16, 34.76s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -182.823190
-         Iterations: 3
-         Function evaluations: 37
-         Gradient evaluations: 14
-         Hessian evaluations: 4
- 78%|███████▊  | 118/152 [1:01:18<19:21, 34.15s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -420.942482
-         Iterations: 7
-         Function evaluations: 27
-         Gradient evaluations: 15
-         Hessian evaluations: 8
- 78%|███████▊  | 119/152 [1:01:48<18:08, 32.99s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -117.893767
-         Iterations: 3
-         Function evaluations: 27
-         Gradient evaluations: 15
-         Hessian evaluations: 4
- 79%|███████▉  | 120/152 [1:02:44<21:18, 39.97s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -271.190529
-         Iterations: 7
-         Function evaluations: 50
-         Gradient evaluations: 28
-         Hessian evaluations: 8
- 80%|███████▉  | 121/152 [1:03:04<17:33, 33.98s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -193.805988
-         Iterations: 3
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 4
- 80%|████████  | 122/152 [1:03:47<18:22, 36.74s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -369.416431
-         Iterations: 5
-         Function evaluations: 42
-         Gradient evaluations: 18
-         Hessian evaluations: 6
- 81%|████████  | 123/152 [1:04:11<15:55, 32.93s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -226.568028
-         Iterations: 4
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 5
- 82%|████████▏ | 124/152 [1:04:29<13:15, 28.41s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -208.631671
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 7
-         Hessian evaluations: 2
- 82%|████████▏ | 125/152 [1:04:47<11:20, 25.21s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -499.097549
-         Iterations: 2
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 3
- 83%|████████▎ | 126/152 [1:05:17<11:32, 26.62s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -232.031680
-         Iterations: 4
-         Function evaluations: 27
-         Gradient evaluations: 14
-         Hessian evaluations: 5
- 84%|████████▎ | 127/152 [1:05:45<11:15, 27.02s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -47.911245
-         Iterations: 3
-         Function evaluations: 22
-         Gradient evaluations: 16
-         Hessian evaluations: 4
- 84%|████████▍ | 128/152 [1:06:14<11:00, 27.52s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -221.554617
-         Iterations: 4
-         Function evaluations: 28
-         Gradient evaluations: 11
-         Hessian evaluations: 5
- 85%|████████▍ | 129/152 [1:06:42<10:36, 27.66s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -356.333188
-         Iterations: 3
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 4
- 86%|████████▌ | 130/152 [1:06:59<08:59, 24.52s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -171.533409
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 86%|████████▌ | 131/152 [1:07:24<08:39, 24.75s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -316.599069
-         Iterations: 3
-         Function evaluations: 24
-         Gradient evaluations: 10
-         Hessian evaluations: 4
- 87%|████████▋ | 132/152 [1:07:59<09:16, 27.84s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -229.116657
-         Iterations: 7
-         Function evaluations: 29
-         Gradient evaluations: 17
-         Hessian evaluations: 8
- 88%|████████▊ | 133/152 [1:08:33<09:21, 29.57s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -413.946281
-         Iterations: 3
-         Function evaluations: 32
-         Gradient evaluations: 16
-         Hessian evaluations: 4
- 88%|████████▊ | 134/152 [1:09:25<10:55, 36.42s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -241.958063
-         Iterations: 6
-         Function evaluations: 47
-         Gradient evaluations: 26
-         Hessian evaluations: 7
- 89%|████████▉ | 135/152 [1:10:12<11:14, 39.69s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -307.937094
-         Iterations: 5
-         Function evaluations: 46
-         Gradient evaluations: 20
-         Hessian evaluations: 6
- 89%|████████▉ | 136/152 [1:10:56<10:54, 40.91s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -282.246828
-         Iterations: 6
-         Function evaluations: 39
-         Gradient evaluations: 21
-         Hessian evaluations: 7
- 90%|█████████ | 137/152 [1:11:14<08:27, 33.84s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -410.010675
-         Iterations: 1
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 2
- 91%|█████████ | 138/152 [1:11:43<07:35, 32.52s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -341.296575
-         Iterations: 2
-         Function evaluations: 29
-         Gradient evaluations: 13
-         Hessian evaluations: 3
- 91%|█████████▏| 139/152 [1:12:04<06:15, 28.91s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -297.291940
-         Iterations: 2
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 3
- 92%|█████████▏| 140/152 [1:12:21<05:06, 25.57s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -293.287614
-         Iterations: 2
-         Function evaluations: 18
-         Gradient evaluations: 6
-         Hessian evaluations: 3
- 93%|█████████▎| 141/152 [1:12:49<04:48, 26.21s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -453.462180
-         Iterations: 5
-         Function evaluations: 24
-         Gradient evaluations: 12
-         Hessian evaluations: 6
- 93%|█████████▎| 142/152 [1:13:31<05:09, 30.95s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -434.497414
-         Iterations: 4
-         Function evaluations: 43
-         Gradient evaluations: 16
-         Hessian evaluations: 5
- 94%|█████████▍| 143/152 [1:13:51<04:07, 27.54s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -143.024731
-         Iterations: 3
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 4
- 95%|█████████▍| 144/152 [1:14:18<03:39, 27.39s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -117.552940
-         Iterations: 2
-         Function evaluations: 25
-         Gradient evaluations: 13
-         Hessian evaluations: 3
- 95%|█████████▌| 145/152 [1:14:59<03:40, 31.46s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -313.969276
-         Iterations: 7
-         Function evaluations: 38
-         Gradient evaluations: 17
-         Hessian evaluations: 8
- 96%|█████████▌| 146/152 [1:15:22<02:55, 29.17s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -154.333759
-         Iterations: 3
-         Function evaluations: 22
-         Gradient evaluations: 10
-         Hessian evaluations: 4
- 97%|█████████▋| 147/152 [1:15:54<02:28, 29.80s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -274.432680
-         Iterations: 4
-         Function evaluations: 29
-         Gradient evaluations: 13
-         Hessian evaluations: 5
- 97%|█████████▋| 148/152 [1:16:15<01:48, 27.14s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -183.625941
-         Iterations: 3
-         Function evaluations: 20
-         Gradient evaluations: 8
-         Hessian evaluations: 4
- 98%|█████████▊| 149/152 [1:16:46<01:24, 28.33s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -310.432864
-         Iterations: 2
-         Function evaluations: 32
-         Gradient evaluations: 12
-         Hessian evaluations: 3
- 99%|█████████▊| 150/152 [1:17:05<00:51, 25.54s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -275.210538
-         Iterations: 2
-         Function evaluations: 19
-         Gradient evaluations: 7
-         Hessian evaluations: 3
- 99%|█████████▉| 151/152 [1:17:49<00:31, 31.18s/it]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -211.461601
-         Iterations: 4
-         Function evaluations: 44
-         Gradient evaluations: 18
-         Hessian evaluations: 5
-100%|██████████| 152/152 [1:18:33<00:00, 35.08s/it]100%|██████████| 152/152 [1:18:33<00:00, 31.01s/it]
-  0%|          | 0/152 [00:00<?, ?it/s]Warning: Desired error not necessarily achieved due to precision loss.
-         Current function value: -249.652757
-         Iterations: 6
-         Function evaluations: 41
-         Gradient evaluations: 19
-         Hessian evaluations: 7
-Saved inverse HVP to hvps/rescal-toy.pt
-
- Computing train loss: 
-
-  1%|          | 1/152 [00:17<43:22, 17.23s/it]  1%|▏         | 2/152 [00:34<42:52, 17.15s/it]  2%|▏         | 3/152 [00:50<41:56, 16.89s/it]  3%|▎         | 4/152 [01:05<40:11, 16.29s/it]  3%|▎         | 5/152 [01:19<38:35, 15.76s/it]  4%|▍         | 6/152 [01:34<37:13, 15.30s/it]  5%|▍         | 7/152 [01:50<37:36, 15.56s/it]  5%|▌         | 8/152 [02:07<38:24, 16.01s/it]  6%|▌         | 9/152 [02:22<37:25, 15.71s/it]  7%|▋         | 10/152 [02:38<37:31, 15.85s/it]  7%|▋         | 11/152 [02:55<37:43, 16.05s/it]  8%|▊         | 12/152 [03:11<37:49, 16.21s/it]  9%|▊         | 13/152 [03:27<37:37, 16.24s/it]  9%|▉         | 14/152 [03:44<37:41, 16.39s/it] 10%|▉         | 15/152 [04:01<37:27, 16.41s/it] 11%|█         | 16/152 [04:17<36:55, 16.29s/it] 11%|█         | 17/152 [04:33<36:45, 16.34s/it] 12%|█▏        | 18/152 [04:49<36:21, 16.28s/it] 12%|█▎        | 19/152 [05:06<36:18, 16.38s/it] 13%|█▎        | 20/152 [05:22<36:07, 16.42s/it] 14%|█▍        | 21/152 [05:32<31:18, 14.34s/it] 14%|█▍        | 22/152 [05:42<28:03, 12.95s/it] 15%|█▌        | 23/152 [05:58<29:49, 13.87s/it] 16%|█▌        | 24/152 [06:14<31:06, 14.58s/it] 16%|█▋        | 25/152 [06:30<32:03, 15.14s/it] 17%|█▋        | 26/152 [06:46<32:11, 15.33s/it] 18%|█▊        | 27/152 [07:02<32:30, 15.61s/it] 18%|█▊        | 28/152 [07:19<32:39, 15.80s/it] 19%|█▉        | 29/152 [07:35<32:59, 16.09s/it] 20%|█▉        | 30/152 [07:52<32:52, 16.17s/it] 20%|██        | 31/152 [08:08<32:41, 16.21s/it] 21%|██        | 32/152 [08:22<31:10, 15.58s/it] 22%|██▏       | 33/152 [08:38<31:04, 15.66s/it] 22%|██▏       | 34/152 [08:54<31:03, 15.79s/it] 23%|██▎       | 35/152 [09:11<31:16, 16.04s/it] 24%|██▎       | 36/152 [09:26<30:33, 15.81s/it] 24%|██▍       | 37/152 [09:42<30:26, 15.88s/it] 25%|██▌       | 38/152 [09:58<30:24, 16.00s/it] 26%|██▌       | 39/152 [10:14<30:02, 15.95s/it] 26%|██▋       | 40/152 [10:30<29:47, 15.96s/it] 27%|██▋       | 41/152 [10:46<29:26, 15.91s/it] 28%|██▊       | 42/152 [10:57<26:45, 14.59s/it] 28%|██▊       | 43/152 [11:12<26:28, 14.57s/it] 29%|██▉       | 44/152 [11:28<27:00, 15.00s/it] 30%|██▉       | 45/152 [11:42<26:30, 14.87s/it] 30%|███       | 46/152 [11:59<27:01, 15.30s/it] 31%|███       | 47/152 [12:16<27:31, 15.73s/it] 32%|███▏      | 48/152 [12:32<27:49, 16.05s/it] 32%|███▏      | 49/152 [12:49<27:54, 16.25s/it] 33%|███▎      | 50/152 [13:05<27:30, 16.18s/it] 34%|███▎      | 51/152 [13:22<27:26, 16.31s/it] 34%|███▍      | 52/152 [13:37<26:47, 16.07s/it] 35%|███▍      | 53/152 [13:54<26:42, 16.18s/it] 36%|███▌      | 54/152 [14:10<26:31, 16.24s/it] 36%|███▌      | 55/152 [14:26<26:20, 16.30s/it] 37%|███▋      | 56/152 [14:36<23:03, 14.41s/it] 38%|███▊      | 57/152 [14:53<23:44, 15.00s/it] 38%|███▊      | 58/152 [15:08<23:47, 15.19s/it] 39%|███▉      | 59/152 [15:25<24:15, 15.65s/it] 39%|███▉      | 60/152 [15:40<23:25, 15.28s/it] 40%|████      | 61/152 [15:56<23:34, 15.55s/it] 41%|████      | 62/152 [16:12<23:50, 15.90s/it] 41%|████▏     | 63/152 [16:29<23:58, 16.17s/it] 42%|████▏     | 64/152 [16:46<23:53, 16.29s/it] 43%|████▎     | 65/152 [17:02<23:45, 16.38s/it] 43%|████▎     | 66/152 [17:16<22:03, 15.39s/it] 44%|████▍     | 67/152 [17:32<22:17, 15.74s/it] 45%|████▍     | 68/152 [17:48<22:03, 15.75s/it] 45%|████▌     | 69/152 [18:04<21:56, 15.86s/it] 46%|████▌     | 70/152 [18:19<21:19, 15.61s/it] 47%|████▋     | 71/152 [18:35<21:18, 15.78s/it] 47%|████▋     | 72/152 [18:52<21:24, 16.06s/it] 48%|████▊     | 73/152 [19:05<19:55, 15.13s/it] 49%|████▊     | 74/152 [19:21<20:12, 15.55s/it] 49%|████▉     | 75/152 [19:38<20:22, 15.87s/it] 50%|█████     | 76/152 [19:54<20:08, 15.91s/it] 51%|█████     | 77/152 [20:09<19:31, 15.62s/it] 51%|█████▏    | 78/152 [20:24<18:57, 15.37s/it] 52%|█████▏    | 79/152 [20:39<18:50, 15.49s/it] 53%|█████▎    | 80/152 [20:56<18:48, 15.68s/it] 53%|█████▎    | 81/152 [21:12<18:55, 15.99s/it] 54%|█████▍    | 82/152 [21:28<18:37, 15.97s/it] 55%|█████▍    | 83/152 [21:45<18:34, 16.14s/it] 55%|█████▌    | 84/152 [22:02<18:30, 16.33s/it] 56%|█████▌    | 85/152 [22:17<18:04, 16.18s/it] 57%|█████▋    | 86/152 [22:32<17:18, 15.73s/it] 57%|█████▋    | 87/152 [22:48<17:03, 15.75s/it] 58%|█████▊    | 88/152 [23:04<16:50, 15.78s/it] 59%|█████▊    | 89/152 [23:20<16:41, 15.89s/it] 59%|█████▉    | 90/152 [23:34<15:48, 15.30s/it] 60%|█████▉    | 91/152 [23:50<15:42, 15.44s/it] 61%|██████    | 92/152 [24:06<15:39, 15.65s/it] 61%|██████    | 93/152 [24:21<15:16, 15.54s/it] 62%|██████▏   | 94/152 [24:37<15:16, 15.80s/it] 62%|██████▎   | 95/152 [24:54<15:13, 16.03s/it] 63%|██████▎   | 96/152 [25:10<14:54, 15.97s/it] 64%|██████▍   | 97/152 [25:26<14:35, 15.93s/it] 64%|██████▍   | 98/152 [25:42<14:21, 15.96s/it] 65%|██████▌   | 99/152 [25:58<14:05, 15.94s/it] 66%|██████▌   | 100/152 [26:14<13:55, 16.07s/it] 66%|██████▋   | 101/152 [26:30<13:36, 16.00s/it] 67%|██████▋   | 102/152 [26:46<13:18, 15.97s/it] 68%|██████▊   | 103/152 [27:02<13:06, 16.06s/it] 68%|██████▊   | 104/152 [27:18<12:56, 16.17s/it] 69%|██████▉   | 105/152 [27:35<12:46, 16.30s/it] 70%|██████▉   | 106/152 [27:46<11:21, 14.81s/it] 70%|███████   | 107/152 [28:03<11:27, 15.27s/it] 71%|███████   | 108/152 [28:19<11:23, 15.54s/it] 72%|███████▏  | 109/152 [28:35<11:19, 15.80s/it] 72%|███████▏  | 110/152 [28:52<11:10, 15.96s/it] 73%|███████▎  | 111/152 [29:07<10:45, 15.75s/it] 74%|███████▎  | 112/152 [29:23<10:40, 16.01s/it] 74%|███████▍  | 113/152 [29:39<10:17, 15.83s/it] 75%|███████▌  | 114/152 [29:56<10:14, 16.16s/it] 76%|███████▌  | 115/152 [30:13<10:07, 16.42s/it] 76%|███████▋  | 116/152 [30:29<09:49, 16.37s/it] 77%|███████▋  | 117/152 [30:46<09:35, 16.44s/it] 78%|███████▊  | 118/152 [31:01<09:08, 16.13s/it] 78%|███████▊  | 119/152 [31:17<08:52, 16.14s/it] 79%|███████▉  | 120/152 [31:34<08:41, 16.29s/it] 80%|███████▉  | 121/152 [31:50<08:26, 16.33s/it] 80%|████████  | 122/152 [32:07<08:09, 16.31s/it] 81%|████████  | 123/152 [32:23<07:50, 16.22s/it] 82%|████████▏ | 124/152 [32:40<07:41, 16.48s/it] 82%|████████▏ | 125/152 [32:56<07:25, 16.48s/it] 83%|████████▎ | 126/152 [33:13<07:09, 16.52s/it] 84%|████████▎ | 127/152 [33:29<06:48, 16.35s/it] 84%|████████▍ | 128/152 [33:45<06:33, 16.40s/it] 85%|████████▍ | 129/152 [34:02<06:17, 16.43s/it] 86%|████████▌ | 130/152 [34:18<06:02, 16.48s/it] 86%|████████▌ | 131/152 [34:35<05:48, 16.58s/it] 87%|████████▋ | 132/152 [34:51<05:26, 16.31s/it] 88%|████████▊ | 133/152 [35:07<05:12, 16.42s/it] 88%|████████▊ | 134/152 [35:17<04:20, 14.49s/it] 89%|████████▉ | 135/152 [35:34<04:18, 15.18s/it] 89%|████████▉ | 136/152 [35:51<04:10, 15.65s/it] 90%|█████████ | 137/152 [36:08<03:58, 15.92s/it] 91%|█████████ | 138/152 [36:24<03:45, 16.10s/it] 91%|█████████▏| 139/152 [36:40<03:30, 16.18s/it] 92%|█████████▏| 140/152 [36:57<03:16, 16.34s/it] 93%|█████████▎| 141/152 [37:13<02:57, 16.10s/it] 93%|█████████▎| 142/152 [37:29<02:41, 16.11s/it] 94%|█████████▍| 143/152 [37:45<02:26, 16.27s/it] 95%|█████████▍| 144/152 [37:58<02:00, 15.12s/it] 95%|█████████▌| 145/152 [38:14<01:48, 15.49s/it] 96%|█████████▌| 146/152 [38:30<01:32, 15.43s/it] 97%|█████████▋| 147/152 [38:45<01:17, 15.56s/it] 97%|█████████▋| 148/152 [39:00<01:01, 15.34s/it] 98%|█████████▊| 149/152 [39:11<00:42, 14.04s/it] 99%|█████████▊| 150/152 [39:27<00:29, 14.58s/it] 99%|█████████▉| 151/152 [39:43<00:14, 14.92s/it]100%|██████████| 152/152 [39:59<00:00, 15.31s/it]100%|██████████| 152/152 [39:59<00:00, 15.79s/it]Saved train gradients to gradients/train/rescal-toy.pt
-Finished!
-Predicted diff: 0.1772328019142151
-Actual diff: -0.28941261768341064
-Correlation is nan
-########################################
-Predicted diff: -0.34183794260025024
-Actual diff: -0.31944990158081055
-Correlation is nan
-########################################
-Predicted diff: -0.015603393316268921
-Actual diff: -0.4777393937110901
-Correlation is nan
-########################################
-Predicted diff: -0.0019606351852416992
-Actual diff: -1.268388032913208
-Correlation is nan
-########################################
-Predicted diff: 0.024595167487859726
-Actual diff: 0.16618604958057404
-Correlation is nan
-########################################
-Predicted diff: -0.7892568111419678
-Actual diff: -0.4356706738471985
-Correlation is nan
-########################################
-Predicted diff: 0.06533705443143845
-Actual diff: -0.4695279002189636
-Correlation is nan
-########################################
-Predicted diff: -0.04233119636774063
-Actual diff: 0.22971780970692635
-Correlation is nan
-########################################
-Predicted diff: -0.07025344669818878
-Actual diff: 0.34539729356765747
-Correlation is nan
-########################################
-Predicted diff: 0.270710289478302
-Actual diff: -0.32285064458847046
-Correlation is nan
-########################################
-Predicted diff: 0.0019979067146778107
-Actual diff: 0.16217559576034546
-Correlation is nan
-########################################
-Predicted diff: 0.039174869656562805
-Actual diff: -0.3761504888534546
-Correlation is nan
-########################################
-Predicted diff: 0.08265480399131775
-Actual diff: 0.39458224177360535
-Correlation is nan
-########################################
-Predicted diff: -0.14517387747764587
-Actual diff: -0.04137951135635376
-Correlation is nan
-########################################
-Predicted diff: 0.15203650295734406
-Actual diff: 0.2574213743209839
-Correlation is nan
-########################################
-Predicted diff: 0.20710577070713043
-Actual diff: 0.023340284824371338
-Correlation is nan
-########################################
-Predicted diff: -0.11935481429100037
-Actual diff: 0.6554457545280457
-Correlation is nan
-########################################
-Predicted diff: 0.1386691778898239
-Actual diff: 0.27665433287620544
-Correlation is nan
-########################################
-Predicted diff: -1.1813163757324219
-Actual diff: 0.25025707483291626
-Correlation is nan
-########################################
-Predicted diff: 0.1123521625995636
-Actual diff: 0.19172734022140503
-Correlation is nan
-########################################
-Predicted diff: 0.08985226601362228
-Actual diff: -0.09084349870681763
-Correlation is nan
-########################################
-Predicted diff: 0.09071944653987885
-Actual diff: -0.6112571358680725
-Correlation is nan
-########################################
-Predicted diff: 0.19087794423103333
-Actual diff: -0.41348493099212646
-Correlation is nan
-########################################
-Predicted diff: 0.09666760265827179
-Actual diff: 0.1483331322669983
-Correlation is nan
-########################################
-Predicted diff: 0.0005939602851867676
-Actual diff: -0.8745350241661072
-Correlation is nan
-########################################
-Predicted diff: 0.29525625705718994
-Actual diff: 0.07294327020645142
-Correlation is nan
-########################################
-Predicted diff: -0.34139373898506165
-Actual diff: -0.08355563879013062
-Correlation is nan
-########################################
-Predicted diff: 0.005807802081108093
-Actual diff: 0.7314738035202026
-Correlation is nan
-########################################
-Predicted diff: 0.11247196793556213
-Actual diff: 0.07022356986999512
-Correlation is nan
-########################################
-Predicted diff: -0.3247879147529602
-Actual diff: -0.5516615509986877
-Correlation is nan
-########################################
-Predicted diff: 0.21938027441501617
-Actual diff: 0.2183701992034912
-Correlation is nan
-########################################
-Predicted diff: 0.14459830522537231
-Actual diff: 0.2695547938346863
-Correlation is nan
-########################################
-Predicted diff: 0.039874497801065445
-Actual diff: 0.2768482565879822
-Correlation is nan
-########################################
-Predicted diff: 0.2497904896736145
-Actual diff: -0.49658650159835815
-Correlation is nan
-########################################
-Predicted diff: 0.1409168392419815
-Actual diff: 0.19005346298217773
-Correlation is nan
-########################################
-Predicted diff: -0.10393507778644562
-Actual diff: -0.20503336191177368
-Correlation is nan
-########################################
-Predicted diff: -0.0994124785065651
-Actual diff: 0.19979459047317505
-Correlation is nan
-########################################
-Predicted diff: -0.008769482374191284
-Actual diff: 0.04941290616989136
-Correlation is nan
-########################################
-Predicted diff: -0.3678761124610901
-Actual diff: -0.33141905069351196
-Correlation is nan
-########################################
-Predicted diff: 0.030216004699468613
-Actual diff: 0.12709146738052368
-Correlation is nan
-########################################
-Predicted diff: 0.03728587180376053
-Actual diff: 0.30828166007995605
-Correlation is nan
-########################################
-Predicted diff: 0.06758683919906616
-Actual diff: -0.9963126182556152
-Correlation is nan
-########################################
-Predicted diff: 0.11465725302696228
-Actual diff: -0.27416980266571045
-Correlation is nan
-########################################
-Predicted diff: 0.10197275876998901
-Actual diff: -0.046961307525634766
-Correlation is nan
-########################################
-Predicted diff: 0.20974883437156677
-Actual diff: -0.04854011535644531
-Correlation is nan
-########################################
-Predicted diff: 0.22111555933952332
-Actual diff: -0.35678207874298096
-Correlation is nan
-########################################
-Predicted diff: 0.1767836958169937
-Actual diff: 0.2186335325241089
-Correlation is nan
-########################################
-Predicted diff: 13.225757598876953
-Actual diff: -0.7430537939071655
-Correlation is nan
-########################################
-Predicted diff: 0.12778839468955994
-Actual diff: -0.4531644582748413
-Correlation is nan
-########################################
-Predicted diff: 26.588544845581055
-Actual diff: 0.002720355987548828
-Correlation is nan
-########################################
-Predicted diff: -0.6923736333847046
-Actual diff: -0.12040942907333374
-Correlation is nan
-########################################
-Predicted diff: 0.06351292133331299
-Actual diff: -0.35621948540210724
-Correlation is nan
-########################################
-Predicted diff: 0.14260627329349518
-Actual diff: -0.6066945791244507
-Correlation is nan
-########################################
-Predicted diff: 0.34509411454200745
-Actual diff: -0.5628862380981445
-Correlation is nan
-########################################
-Predicted diff: 0.22902841866016388
-Actual diff: -0.41537386178970337
-Correlation is nan
-########################################
-Predicted diff: -0.04560110718011856
-Actual diff: 0.04498213529586792
-Correlation is nan
-########################################
-Predicted diff: -0.01767941750586033
-Actual diff: 0.06731079518795013
-Correlation is nan
-########################################
-Predicted diff: 0.07324452698230743
-Actual diff: -0.5179392695426941
-Correlation is nan
-########################################
-Predicted diff: 0.057224828749895096
-Actual diff: -0.6372821927070618
-Correlation is nan
-########################################
-Predicted diff: 0.19451525807380676
-Actual diff: 0.7107778787612915
-Correlation is nan
-########################################
-Predicted diff: 0.02405168116092682
-Actual diff: 0.06137150526046753
-Correlation is nan
-########################################
-Predicted diff: -0.18871134519577026
-Actual diff: 0.11670827865600586
-Correlation is nan
-########################################
-Predicted diff: -0.4258883595466614
-Actual diff: -0.34338104724884033
-Correlation is nan
-########################################
-Predicted diff: -0.47054728865623474
-Actual diff: 0.40022164583206177
-Correlation is nan
-########################################
-Predicted diff: 0.07023519277572632
-Actual diff: -0.56919264793396
-Correlation is nan
-########################################
-Predicted diff: 0.2464480698108673
-Actual diff: 0.43624451756477356
-Correlation is nan
-########################################
-Predicted diff: -0.9756985306739807
-Actual diff: -0.08371990919113159
-Correlation is nan
-########################################
-Predicted diff: 0.08982852101325989
-Actual diff: -0.6086924076080322
-Correlation is nan
-########################################
-Predicted diff: -0.2620754837989807
-Actual diff: -0.17709773778915405
-Correlation is nan
-########################################
-Predicted diff: -0.17769983410835266
-Actual diff: 0.29490214586257935
-Correlation is nan
-########################################
-Predicted diff: -0.2382955700159073
-Actual diff: 0.13222897052764893
-Correlation is nan
-########################################
-Predicted diff: 0.21478180587291718
-Actual diff: -0.44429415464401245
-Correlation is nan
-########################################
-Predicted diff: 0.029282094910740852
-Actual diff: -0.04754680395126343
-Correlation is nan
-########################################
-Predicted diff: 0.0057859644293785095
-Actual diff: -0.3550630807876587
-Correlation is nan
-########################################
-Predicted diff: 0.10242892801761627
-Actual diff: -0.45707499980926514
-Correlation is nan
-########################################
-Predicted diff: -0.013129176571965218
-Actual diff: 0.47999489307403564
-Correlation is nan
-########################################
-Predicted diff: 0.11013400554656982
-Actual diff: -0.1631336212158203
-Correlation is nan
-########################################
-Predicted diff: 0.3033818006515503
-Actual diff: 0.26600897312164307
-Correlation is nan
-########################################
-Predicted diff: 0.036487072706222534
-Actual diff: -0.017852485179901123
-Correlation is nan
-########################################
-Predicted diff: -2.821258544921875
-Actual diff: 0.42515963315963745
-Correlation is nan
-########################################
-Predicted diff: 0.2408902645111084
-Actual diff: -0.25030553340911865
-Correlation is nan
-########################################
-Predicted diff: -0.9771268367767334
-Actual diff: -0.20263731479644775
-Correlation is nan
-########################################
-Predicted diff: 0.027971263974905014
-Actual diff: -0.21206921339035034
-Correlation is nan
-########################################
-Predicted diff: 0.27605193853378296
-Actual diff: 0.3267749547958374
-Correlation is nan
-########################################
-Predicted diff: 79.44185638427734
-Actual diff: -0.7530235648155212
-Correlation is nan
-########################################
-Predicted diff: -2.4661922454833984
-Actual diff: -0.63791823387146
-Correlation is nan
-########################################
-Predicted diff: -0.2495269626379013
-Actual diff: -0.4074031710624695
-Correlation is nan
-########################################
-Predicted diff: 0.2920917272567749
-Actual diff: 0.2208227515220642
-Correlation is nan
-########################################
-Predicted diff: -0.06233689934015274
-Actual diff: -0.07662159204483032
-Correlation is nan
-########################################
-Predicted diff: 0.05828377604484558
-Actual diff: 0.10765981674194336
-Correlation is nan
-########################################
-Predicted diff: 0.21508336067199707
-Actual diff: 0.2556605935096741
-Correlation is nan
-########################################
-Predicted diff: 0.024012457579374313
-Actual diff: -0.5238993763923645
-Correlation is nan
-########################################
-Predicted diff: 0.15918397903442383
-Actual diff: 0.018375098705291748
-Correlation is nan
-########################################
-Predicted diff: 0.08855460584163666
-Actual diff: 0.5686129331588745
-Correlation is nan
-########################################
-Predicted diff: 0.07871358841657639
-Actual diff: -0.6926143169403076
-Correlation is nan
-########################################
-Predicted diff: -0.16219964623451233
-Actual diff: 0.006912410259246826
-Correlation is nan
-########################################
-Predicted diff: -0.8651269674301147
-Actual diff: -0.21278977394104004
-Correlation is nan
-########################################
-Predicted diff: 60.183258056640625
-Actual diff: 0.14201390743255615
-Correlation is nan
-########################################
-Predicted diff: 0.18089020252227783
-Actual diff: 0.5517869591712952
-Correlation is nan
-########################################
-Predicted diff: 0.03524598479270935
-Actual diff: -0.5310387015342712
-Correlation is nan
-########################################
-Predicted diff: -0.1584218442440033
-Actual diff: -0.5961652398109436
-Correlation is nan
-########################################
-Predicted diff: 0.08071716129779816
-Actual diff: 0.4144545793533325
-Correlation is nan
-########################################
-Predicted diff: 0.021846003830432892
-Actual diff: -0.2173658013343811
-Correlation is nan
-########################################
-Predicted diff: -0.20255611836910248
-Actual diff: -0.6560864448547363
-Correlation is nan
-########################################
-Predicted diff: -0.37399089336395264
-Actual diff: 0.11877655982971191
-Correlation is nan
-########################################
-Predicted diff: -0.6835814118385315
-Actual diff: 0.07406723499298096
-Correlation is nan
-########################################
-Predicted diff: 0.05710500851273537
-Actual diff: -0.11383706331253052
-Correlation is nan
-########################################
-Predicted diff: 0.2064480483531952
-Actual diff: -0.11212307214736938
-Correlation is nan
-########################################
-Predicted diff: 20.38637351989746
-Actual diff: -0.28974127769470215
-Correlation is nan
-########################################
-Predicted diff: 22.924957275390625
-Actual diff: -0.3721625804901123
-Correlation is nan
-########################################
-Predicted diff: -1.2210465669631958
-Actual diff: -0.1382279396057129
-Correlation is nan
-########################################
-Predicted diff: 80.23639678955078
-Actual diff: -0.8166173696517944
-Correlation is nan
-########################################
-Predicted diff: 0.10917167365550995
-Actual diff: -0.3870519995689392
-Correlation is nan
-########################################
-Predicted diff: -0.005471140146255493
-Actual diff: 0.08512359857559204
-Correlation is nan
-########################################
-Predicted diff: 0.022823218256235123
-Actual diff: 0.6745957136154175
-Correlation is nan
-########################################
-Predicted diff: 0.09689724445343018
-Actual diff: 0.19474273920059204
-Correlation is nan
-########################################
-Predicted diff: 0.12790685892105103
-Actual diff: 0.3696630597114563
-Correlation is nan
-########################################
-Predicted diff: 0.030485274270176888
-Actual diff: 0.15976673364639282
-Correlation is nan
-########################################
-Predicted diff: 0.008673903532326221
-Actual diff: -0.1067933514714241
-Correlation is nan
-########################################
-Predicted diff: 0.04435509443283081
-Actual diff: 0.1570490002632141
-Correlation is nan
-########################################
-Predicted diff: 0.2408243864774704
-Actual diff: 0.002977728843688965
-Correlation is nan
-########################################
-Predicted diff: 0.05938773602247238
-Actual diff: -0.7675801515579224
-Correlation is nan
-########################################
-Predicted diff: 0.3153408169746399
-Actual diff: -0.06702017784118652
-Correlation is nan
-########################################
-Predicted diff: 0.19033817946910858
-Actual diff: 0.3189905285835266
-Correlation is nan
-########################################
-Predicted diff: 0.291786253452301
-Actual diff: -0.41862404346466064
-Correlation is nan
-########################################
-Predicted diff: 0.1374046355485916
-Actual diff: -0.7810791730880737
-Correlation is nan
-########################################
-Predicted diff: 0.0548708438873291
-Actual diff: 0.014576762914657593
-/usr/local/lib/python3.8/dist-packages/numpy/lib/function_base.py:2551: RuntimeWarning:
-
-Degrees of freedom <= 0 for slice
-
-/usr/local/lib/python3.8/dist-packages/numpy/lib/function_base.py:2480: RuntimeWarning:
-
-divide by zero encountered in true_divide
-
-/usr/local/lib/python3.8/dist-packages/numpy/lib/function_base.py:2480: RuntimeWarning:
-
-invalid value encountered in multiply
-
-
-Correlation is nan
-########################################
-Predicted diff: 0.13696050643920898
-Actual diff: 0.07772642374038696
-Correlation is nan
-########################################
-Predicted diff: -0.5347036123275757
-Actual diff: 0.041911423206329346
-Correlation is nan
-########################################
-Predicted diff: -0.18595030903816223
-Actual diff: 0.05522078275680542
-Correlation is nan
-########################################
-Predicted diff: 0.10982894152402878
-Actual diff: 0.2855956703424454
-Correlation is nan
-########################################
-Predicted diff: 0.1925182044506073
-Actual diff: 0.48123061656951904
-Correlation is nan
-########################################
-Predicted diff: 0.07859539985656738
-Actual diff: -0.06501376628875732
-Correlation is nan
-########################################
-Predicted diff: -0.18840941786766052
-Actual diff: 0.18304020166397095
-Correlation is nan
-########################################
-Predicted diff: 0.2329556792974472
-Actual diff: 0.200142040848732
-Correlation is nan
-########################################
-Predicted diff: -0.2530061602592468
-Actual diff: -0.8777587413787842
-Correlation is nan
-########################################
-Predicted diff: -0.10293597728013992
-Actual diff: -0.4403255581855774
-Correlation is nan
-########################################
-Predicted diff: -0.1937265843153
-Actual diff: 0.2948795557022095
-Correlation is nan
-########################################
-Predicted diff: 0.13560986518859863
-Actual diff: 0.24064451456069946
-Correlation is nan
-########################################
-Predicted diff: 0.13557803630828857
-Actual diff: 0.029649019241333008
-Correlation is nan
-########################################
-Predicted diff: -0.3070102632045746
-Actual diff: 0.3820507526397705
-Correlation is nan
-########################################
-Predicted diff: 0.2809373140335083
-Actual diff: 0.13327348232269287
-Correlation is nan
-########################################
-Predicted diff: 0.1480955183506012
-Actual diff: -0.7974061965942383
-Correlation is nan
-########################################
-Predicted diff: 0.025405988097190857
-Actual diff: 0.10888230800628662
-Correlation is nan
-########################################
-Predicted diff: 0.4184618592262268
-Actual diff: -0.3480263948440552
-Correlation is nan
-########################################
-Predicted diff: 0.0013775080442428589
-Actual diff: 0.37480831146240234
-Correlation is nan
-########################################
-Predicted diff: -1.705435037612915
-Actual diff: -0.37620222568511963
-Correlation is nan
-########################################
-Predicted diff: 0.11988761276006699
-Actual diff: 0.4246213734149933
-Correlation is nan
-########################################
-Predicted diff: 0.1754721999168396
-Actual diff: -0.26629894971847534
-Correlation is nan
-########################################
-Predicted diff: -3.757887601852417
-Actual diff: -0.250777006149292
-Correlation is nan
-########################################
-Predicted diff: 0.1509404480457306
-Actual diff: 0.4784364104270935
-Correlation is nan
-########################################
-Predicted diff: -0.23987582325935364
-Actual diff: 0.31423139572143555
-Correlation is nan
-########################################
-Correlation is (-0.17873425921719874, 0.02758307975830188)
-Correlation is -0.17873425921719868
-Correlation is -0.17873425921719868
-mean actual diff -0.08330322255527503
